@@ -1,0 +1,78 @@
+body {
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#particles-js {
+    border-radius: 10%;
+    background: #323233;
+    height: 1300px;
+}
+
+.title {
+    
+    text-align: center;
+    
+    position: absolute;
+    margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+}
+h1 {
+    
+    background-image: linear-gradient(white, skyblue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color:transparent;
+    font-size: 10em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    font-weight: 500;
+}
+h3 {
+    background-image: linear-gradient(white, skyblue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color:transparent;
+    font-size: 4em;
+    top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    font-weight: 100;
+}
+p {
+    background-image: linear-gradient(white, skyblue);    
+    -webkit-background-clip: text;
+    background-clip: text;
+    color:transparent;
+    padding: 3em;
+    font-size: 2em;
+    top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    font-weight: 300;
+    text-align: justify;
+}
+img {
+    width: 50px;
+    height: 50px;
+   
+}
+.invert {
+    filter: invert(100%);
+}
+.icons {
+    padding-top: 30px;
+    display: flex;
+    margin: auto;
+    width: 300px;
+    justify-content: space-between;
+    
+}
